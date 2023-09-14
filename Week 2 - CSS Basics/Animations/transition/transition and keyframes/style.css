@@ -1,0 +1,54 @@
+.container{
+    width: 800px;
+    height: 154px;
+    background: linear-gradient(#f69d3c, #56d245);
+
+}
+.box{
+    height: 150px;
+    width: 150px;
+    border: 2px solid brown;
+    background-color: green;
+    animation-name: arif;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear ;
+    animation-direction: alternate;
+    /* animation-direction: normal; */
+    /* animation-fill-mode: forwards; */
+}
+@keyframes arif {
+    0%{
+        width: 10%;
+        background-color: rgb(221, 132, 15);
+    }
+    25%{
+        width: 30%;
+        background-color: rgb(244, 147, 22);
+    }
+    40%{
+        width: 50%;
+        background-color: #ffffff;
+    }
+    70%{
+        width: 70%;
+        background-color:  #ffffff;
+    }
+    90%{
+        width: 80%;
+        background-color: rgb(12, 246, 66);
+    }
+    100%{
+        width: 100%;
+        background-color: rgb(12, 246, 66);
+    }
+}
+/* @keyframes arif {
+    from{
+        width: 150px;
+    }
+    to{
+        width: 800px;
+    }
+    
+} */

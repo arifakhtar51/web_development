@@ -1,0 +1,14 @@
+.container{
+    border: 3px solid rgb(232, 232, 68);
+    background-color: beige;
+    height: 300px;
+    width: 300px;
+}
+.box{
+    border: 3px solid #e0a906; 
+    color: rgb(101, 46, 7);
+    --dark_red:rgb(95, 95, 107);
+    color: #3d3f3d;
+    color: var(--dark_red);
+
+}
