@@ -1,0 +1,47 @@
+.color1{
+    display: flex;
+    background-color: yellow;  
+    height: 250px;
+    width: 250px;
+    background-color: #c43030;
+    border-radius: 50%;
+    display: inline-block;
+    transition: ease-in 3;
+    animation: mymove 10s infinite;
+}
+.color2{
+    display: flex;
+    background-color: yellow;
+    height: 250px;
+    width: 250px;
+    background-color: #d36297;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 700px;
+
+
+}
+
+@keyframes mymove {
+    0% {
+      transform: translateX(0%);
+    }
+    30%{
+        transform: translateX(30%);
+    }
+    70%{
+        transform: translateY(50%);
+    }
+    90%{
+        transform: translateX(100%);
+    }
+    
+    100%{
+        transform: translateX(0%);
+    }
+
+  
+    
+  }
