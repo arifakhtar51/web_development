@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "configurations": [
     {
       "name": "windows-gcc-x86",
@@ -17,4 +18,24 @@
     }
   ],
   "version": 4
+=======
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "cStandard": "c11",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "windows-gcc-x86",
+            "compilerPath": "C:/MinGW/bin/cpp.exe"
+        }
+    ],
+    "version": 4
+>>>>>>> 9ea9689509b739449a8c2aa2d41913a68975726b
 }

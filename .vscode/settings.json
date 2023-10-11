@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "liveServer.settings.port": 5501,
   "C_Cpp_Runner.msvcBatchPath": "",
   "C_Cpp_Runner.cCompilerPath": "gcc",
@@ -60,4 +61,7 @@
   "files.associations": {
     "random": "cpp"
   }
+=======
+    "liveServer.settings.port": 5501
+>>>>>>> 9ea9689509b739449a8c2aa2d41913a68975726b
 }
