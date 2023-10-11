@@ -11,8 +11,8 @@ const symbolsCheck = document.querySelector("#symbols");
 const indicator = document.querySelector("[data-indicator]");
 const generateBtn = document.querySelector(".generateButton");
 const allCheckBox = document.querySelectorAll("input[type=checkbox]");
-const symbols = '~`!@#$%^&*()_-+={[}]|:;"<,>.?/';
-
+const symbols = '!~@#$%^&*()_-+={[}]|:;"<,>.?/';
+const symbolLength=symbols.length;
 let password="";
 let passwordLength=10;
 let checkcount=0;
@@ -47,7 +47,8 @@ function generateUppercase(){
     return String.fromCharCode(getRandInteger(65,90));
 }
 function generateSymbol(){
-    const rnd=String.fromCharCode(getRandInteger(0,symbols.length));
+    const rnd=(getRandInteger(0,symbolLength));
+    console.log(rnd);
     return symbols.charAt(rnd);
 }
 
@@ -179,7 +180,7 @@ generateBtn.addEventListener('click',()=>{
     for(let i=0; i<passwordLength-funcArr.length; i++) {
         let randIndex = getRandInteger(0 , funcArr.length);
         console.log("randIndex" + randIndex);
-        password += funcArr[randIndex]();
+        password += funcArr[randIndex](i);
     }
     console.log("Remaining adddition done");
     //shuffle the password

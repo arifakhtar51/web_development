@@ -29,10 +29,9 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
     align-items: center;
     background: linear-gradient(90deg, rgba(91, 16, 97, 1) 30%, rgba(238, 130, 238, 1) 100%);
-
+    /* background: linear-gradient(90deg, rgba(98, 55, 41, 1) 11%, rgba(59, 105, 141, 1) 73%, rgba(138, 61, 138, 1) 95%); */
     /* background: linear-gradient(90deg, rgba(255, 255, 0, 1) 3%, rgba(0, 188, 212, 1) 50%, rgba(238, 130, 238, 1) 100%); */
 }
 /* .pswdgenerator{
